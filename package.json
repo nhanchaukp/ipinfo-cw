@@ -1,0 +1,17 @@
+{
+  "name": "ipinfo-cw",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Cloudflare Worker returning /cdn-cgi/trace as JSON on /json",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^3.114.0"
+  },
+  "dependencies": {
+    "hono": "^4.13.7"
+  }
+}

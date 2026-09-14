@@ -1,0 +1,9 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "ipinfo-cw",
+  "main": "src/index.js",
+  "compatibility_date": "2024-09-14",
+  "observability": {
+    "enabled": true
+  }
+}
